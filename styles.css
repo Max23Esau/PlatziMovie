@@ -15,16 +15,11 @@
   background: #ad1313;
 }
 
-
 body{
     margin: 0;
     padding: 0;
     background: rgba(255, 255, 255, 0.404);
     font-family: 'Noto Sans JP', sans-serif;
-    /* display: grid;
-    grid-template: 10% 90% / 10% 90%;
-    grid-template-areas:    "header header"
-                            "menu hero";*/
 }
 
 .fas, .fab{
@@ -77,7 +72,6 @@ body{
 }
 
 .hero{
-  /* grid-area: hero; */
   display: grid;
   grid-template: auto / 8% 92%;
   grid-template-areas:
@@ -89,7 +83,6 @@ body{
   grid-area: navbar;
   background: #000;
   height: 100%;
-  /* height: 50%; */
   position: fixed;
   width: 7%;
   top: 60px;
@@ -234,9 +227,6 @@ body{
   .nav-item:last-child {
     margin: inherit;
   }
-  /* .estrenos, .aclamadas, .imperdibles {
-    padding: 20px;
-  } */
   .estrenos-list, .aclamadas-list, .imperdibles-list {
     grid-template: 200px / repeat(4, 320px);
   }
