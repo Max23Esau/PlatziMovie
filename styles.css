@@ -114,7 +114,7 @@ body{
 }
 
 .estrenos, .aclamadas, .imperdibles{
-  padding: 20px;
+  padding: 10px;
 }
 .estrenos{
   grid-area: estrenos;
@@ -241,5 +241,11 @@ body{
   }
   .user-name{
     display: none;
+  }
+}
+@media only screen and (max-width: 320px){
+  
+  .estrenos-list, .aclamadas-list, .imperdibles-list {
+    grid-template: 200px / repeat(4, 300px);
   }
 }
